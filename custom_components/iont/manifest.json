@@ -1,0 +1,24 @@
+{
+  "domain": "iont",
+  "name": "IONT",
+  "codeowners": [
+    "@Electrotom"
+  ],
+  "config_flow": true,
+  "dependencies": [
+    "modbus"
+  ],
+  "documentation": "https://github.com/IONTtech/ha-iont",
+  "integration_type": "device",
+  "iot_class": "local_polling",
+  "issue_tracker": "https://github.com/IONTtech/ha-iont/issues",
+  "loggers": [
+    "modbus_connection",
+    "pyiont",
+    "tmodbus"
+  ],
+  "requirements": [
+    "pyiont==0.1.0"
+  ],
+  "version": "0.1.0"
+}
