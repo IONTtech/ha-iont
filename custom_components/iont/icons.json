@@ -1,0 +1,42 @@
+{
+  "entity": {
+    "binary_sensor": {
+      "authorized": {
+        "default": "mdi:key-variant"
+      },
+      "free_charging": {
+        "default": "mdi:lock-open-variant"
+      }
+    },
+    "button": {
+      "boost": {
+        "default": "mdi:lightning-bolt"
+      }
+    },
+    "sensor": {
+      "authorized_by": {
+        "default": "mdi:shield-key"
+      },
+      "charging_state": {
+        "default": "mdi:ev-plug-type2"
+      },
+      "charging_strategy": {
+        "default": "mdi:tune-variant"
+      },
+      "status": {
+        "default": "mdi:ev-station"
+      },
+      "vehicle_state": {
+        "default": "mdi:car-electric"
+      }
+    },
+    "switch": {
+      "authorization": {
+        "default": "mdi:key",
+        "state": {
+          "off": "mdi:key-remove"
+        }
+      }
+    }
+  }
+}
