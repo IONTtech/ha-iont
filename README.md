@@ -15,7 +15,7 @@ domain `iont`.
 - Modbus TCP enabled on the charger, in its administration interface under
   **Protocols**. To control charging from Home Assistant (authorization, boost,
   power limit), also enable writing there; reading alone is enough for the
-  sensors. The charger listens on port `502`.
+  sensors. The charger listens on port `30502`.
 
 ## Installation
 
@@ -37,7 +37,7 @@ directory and restart.
 ## Configuration
 
 1. **Settings → Devices & services → Add integration → IONT**.
-2. Enter the charger's hostname or IP address (port `502` by default).
+2. Enter the charger's hostname or IP address (port `30502` by default).
 
 The charger is added as a device, with each connector as a device beneath it.
 
